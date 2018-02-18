@@ -5,15 +5,15 @@ This repository should contains postsharp aspects that are related to the thread
 
 ## Getting Started
 Install from nuget 
-
+[![NuGet](https://img.shields.io/nuget/v/Nuget.Core.svg?style=flat-square)](https://www.nuget.org/packages/Xamarin.Aspects.Threading/1.0.0)
 
 ### Note
 
 Do not install postsharp in your xamarin.ios or xamarin.android projects otherwise the compiler will complain saying that postsharp does not support xamarin anymore.
 
-```
+
 ## Aspects to use
-```
+
 ### ShowLoader
 This aspect depend on [Acr.UserDialogs](https://github.com/aritchie/userdialogs) library so you must initialize the acr library in your Android and Ios projects.
 
